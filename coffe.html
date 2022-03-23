@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>coldbrew</title>
     <link rel="stylesheet" href="coffe.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 </head>
@@ -51,24 +52,35 @@
             </div>
 
             <div class="nav-element-right animation">
-                <ul class="nav-ul" style="list-style-type: none">
-                    <li class="nav-li"><a href="#">About</a></li>
-                    <hr>
-                    <li class="nav-li"><a href="#Pricing">Pricing</a></li>
-                    <hr>
-                    <li class="nav-li"><a href="#Feature">Feature</a></li>
-                    <hr>
-                    <li class="nav-li"><a href="#contactUS">Contact</a></li>
-                    <hr>
-                    <li class="nav-li"><a href="#">EN</a></li>
 
-                </ul>
+                <a class="hamburgerMenu">
+                    <i class="bi bi-list hamIcon"></i>
+                </a>
+
+                <div class="nav-element">
+
+                    <ul class="nav-ul" style="list-style-type: none">
+                        <i class="bi bi-x-circle-fill cross_x"></i>
+                        <li class="nav-li"><a href="#">About</a></li>
+                        <hr>
+                        <li class="nav-li"><a href="#Pricing">Pricing</a></li>
+                        <hr>
+                        <li class="nav-li"><a href="#Feature">Feature</a></li>
+                        <hr>
+                        <li class="nav-li"><a href="#contactUS">Contact</a></li>
+                        <hr>
+                        <li class="nav-li"><a href="#">EN</a></li>
+
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <div id="scroll">
-            <div id="scroll-text" class="animation">Scroll To Explore</div>
-            <hr>
+            <div id="Scroll-div">
+                <i class="bi bi-arrow-down-circle-fill"></i>
+                <p id="scroll-text" class="animation">Scroll To Explore </p>
+            </div>
         </div>
 
         <main class="main-body ">
@@ -268,6 +280,8 @@
             </footer>
         </main>
     </div>
+
+    <script src="coffee.js"></script>
 </body>
 
 </html>

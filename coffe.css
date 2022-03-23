@@ -68,7 +68,7 @@ html{
 
 .nav-element-right{
     position: absolute;
-    top: 67px;
+    top: 35px;
     right: 0;
     padding-right: 7rem;
 }
@@ -88,6 +88,13 @@ html{
    color:#3f546a;
 }
 
+.hamburgerMenu{
+    display: none;
+}
+
+.cross_x{
+    display: none;
+}
 /* NAV-BODY */
 
 .nav-main {
@@ -118,24 +125,54 @@ html{
 }
 
 /* Scrol animation */
-#scroll{
+
+/* #scroll{
     position: absolute;
     width: 10%;
     left: 45%;
     top: 66%;
     border-radius: 100%;
     border: 30px solid #fff3f9;
+} */
+
+#scroll{
+    position: absolute;
+    width: 10%;
+    left: 45%;
+    top: 80%;
 }
 
-#scroll-text{
-padding:10px 0;
-text-align: center;
+#Scroll-div{
+border-radius: 50%;
+border: 60px solid #fff;
+width: 156px;
+height: 100px;
+position: absolute;
+bottom: -9px;;
+right: 0;
+}
+
+
+#scroll i {
+    position: absolute;
+    top: -21px;
+font-size: 71px;
+right: -16px;
+}
+
+#scroll-text span{
+position:absolute;
+font-size:1.2em;
+left: 17px;
+bottom: 31px;
+transform-origin: 0 75px;
 }
 
 /* MainBody */
 .MainArticle{
     padding: 3.5rem 7rem;
-    background-color: #fff3f9;
+    margin-top: 55px;
+    /* background-color: #fff3f9; */
 }
 
 .MA1{

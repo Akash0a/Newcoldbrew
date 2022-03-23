@@ -1,0 +1,260 @@
+@media only screen and (max-width:1240px){
+
+    .nav-element-right {
+        padding-right: 3rem;
+    }
+
+    #Scroll-div {
+        // bottom: -600px;
+        top: -464px;
+        right: -41px;
+    }
+    
+.sponsor{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+}
+
+
+@media only screen and (max-width:768px){
+
+    .nav-body-left {
+        padding-left:4rem;
+    }
+
+    .nav-element-right{
+        padding:0px;
+
+        .nav-ul li {
+            padding: 0px 16px;
+            font-size: 17px;
+        }
+    }
+
+    #Scroll-div {
+        top: -130px;
+        // bottom: -600px;
+        right: -41px;
+    }
+
+    .MainArticle {
+        padding: 4.5rem 5rem;
+    }
+
+    .product {
+        padding: 3.5rem 4rem;
+    
+        .MAh1 {
+            width: 100%;
+            text-align: center;
+        }
+ 
+
+.productDetails .PdSection {
+    width: 80%;
+}
+
+.productDetails .PDh2 {
+    margin-right: 17px;
+}
+} 
+ 
+    .sponsor{
+        flex-direction: column;
+        // background-color:red;
+    
+    img{
+        margin: 15px;
+    }
+}
+
+.FooterMain {
+    padding: 2rem 1rem 0 1rem;
+    
+    #footerSctn2 .footerSctn .Footp1 {
+        width: 95%;
+    }
+}
+
+}
+
+@media only screen and (max-width:500px){
+
+    #nav-frame{
+        background: none;
+
+        .nav-body-left {
+            width: 100%;
+            padding-left: 2rem;
+
+        .nav{
+                font-size: 26px;
+        }
+
+        .nav i {
+            font-size: 30px;
+        }
+            .nav-main {
+                width: 100%;
+
+                .nav-section1 {
+                    width: 90%;
+
+                    .nav-header {
+                        width: 70%;
+                    }                    
+                }
+            }
+        }
+
+
+        .nav-element-right{
+            // display: none;
+            animation: none;
+            padding: 20px 10px;
+            width: 360px;
+
+            .hamburgerMenu{
+                display: block;
+                cursor: pointer;
+                .hamIcon{
+                    font-size: 50px;
+                    float: right;
+                    position: absolute;
+                    top: -5px;
+                    right: 15px;
+                }
+            }
+
+            
+            .cross_x{
+                display: block;
+                font-size: 41px;
+                text-align: left;
+                padding: 12px;
+                width: 20%;
+                cursor: pointer;
+                // width: 70px;
+            }
+
+                .nav-element {
+                    display: none;
+                }
+
+            .nav-ul{
+                display: block;
+                flex-direction: column;
+                background-color: grey;
+                width: 100%;
+                text-align: center;
+                margin: -15px 0;
+            }
+            .nav-li{
+                padding: 5px;
+                font-size: 22px;
+                margin: 22px;
+            }
+
+            .nav-li:hover {
+                background-color: white;
+                cursor: pointer;
+            }
+
+            .nav-element.active {
+                display: block;
+            }
+            .hamburgerMenu.active{
+                display:none
+            }
+        }
+    
+}
+
+
+#Scroll-div {
+    top: -152px;
+    right: -57px;
+}
+
+.MainArticle {
+    padding: 4.5rem 1rem;
+
+
+    .MA1{
+        flex-direction: column;
+
+       h1 {
+            text-align: center;
+            margin: 12px 0px;
+            padding: 20px 0px;
+            width: 100%;
+        }
+    }
+
+    .MainArticle2 .MA2 {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .MA2 .MAsub  {
+            margin: 8px 3px;
+            padding: 16px 0;
+        }
+    }
+}
+
+.product {
+    padding: 1.5rem 1rem;
+
+    .MAh1 {
+        font-size: 33px;
+    }
+
+    .productElement {
+        flex-direction: column;
+        
+
+        .productImg {
+            width: 100%;
+        }
+
+        .productDetails {
+            width: 100%;
+            padding: 16px 0px;
+
+            .pd3 {
+                text-align: center;
+    
+                .pd3-btn1 {
+                    margin: 39px 2px;
+                }
+            }
+        }
+
+         
+    }
+}
+
+.footer1 {
+    flex-direction: column;
+
+    #footerSctn1 {
+        width: 100%;
+    }
+
+    #footerSctn2 {
+        width: 100%;
+        padding-top: 20px;
+
+        .footerSctn {
+            width: 100%;
+            padding: 0 7px;
+        }
+    }
+
+    .Footp {
+        width: 50%;
+    }
+}
+}
